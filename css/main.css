@@ -8,3 +8,30 @@
 серый фоновый цвет #f5f4fa
 фон футера #2f303a
 */
+
+/* ====== Стили для index.html ====== */
+
+/* Hero */
+
+.hero {
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.hero-title {
+  color: var(--secondary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
