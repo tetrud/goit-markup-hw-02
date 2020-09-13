@@ -10,9 +10,9 @@
 }
 
 body {
-  font-family: var(--main-font);
   background-color: var(--primary-white-color);
   color: var(--title-text-color);
+  font-family: var(--main-font);
 }
 
 .list {
@@ -25,9 +25,9 @@ body {
 /* ====== HEADER ====== */
 /*Logo*/
 .logo {
+  color: #000000;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  color: #000000;
   font-size: 26px;
   line-height: 1.2;
 }
@@ -43,11 +43,11 @@ body {
 
 /* Navigation */
 .navigation-link {
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
 }
 
 .navigation-list .current {
@@ -62,12 +62,12 @@ body {
 /* Address */
 .navigation-mailto,
 .navigation-tel {
+  color: var(--paragraph-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--paragraph-text-color);
 }
 
 .navigation-mailto:hover,

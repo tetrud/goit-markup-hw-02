@@ -26,12 +26,38 @@
   text-transform: uppercase;
 }
 .btn {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: var(--accent-color);
-  color: var(--secondary-text-color);
+}
+
+/* ====== SECTION ====== */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Advantades */
+.advantades-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantades-text {
+  color: var(--paragraph-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
