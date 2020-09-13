@@ -61,3 +61,22 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+/* Design */
+
+/* Team */
+
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.profession-text {
+  color: var(--paragraph-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
