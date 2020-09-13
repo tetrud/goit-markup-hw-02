@@ -13,6 +13,7 @@ body {
   background-color: var(--primary-white-color);
   color: var(--title-text-color);
   font-family: var(--main-font);
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -23,6 +24,7 @@ body {
 }
 
 /* ====== HEADER ====== */
+
 /*Logo*/
 .logo {
   color: #000000;
@@ -75,4 +77,35 @@ body {
 .navigation-tel:hover,
 .navigation-tel:focus {
   color: var(--accent-color);
+}
+
+/* ====== FOOTER ====== */
+
+.footer {
+  background-color: #2f303a;
+}
+
+/* Footer-logo */
+
+.logo-footer {
+  color: var(--secondary-text-color);
+}
+
+/* Footer-nav */
+.footer-nav-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address-footer {
+  color: var(--secondary-text-color);
+}
+
+.address-footer:hover,
+.address-footer:focus {
+  color: var(--accent-color);
+}
+
+.contact {
+  color: var(--light-text-color);
 }
